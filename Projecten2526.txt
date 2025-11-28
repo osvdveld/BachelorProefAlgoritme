@@ -1,0 +1,32 @@
+Comparative study of VOC degradation via thermal, plasma and post-plasma catalytic processes.2
+Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie.2
+Magnetic stabilization of a vortex discharge applied for gas reforming.2
+Flipped acoustics lab.1
+Heartbeat.1
+IceCube LED display and Event Topologies.1
+Designing analog readout electronics for particle detectors.1
+Developing a Beam Monitor for the SHiP Experiment at CERN.2
+Calibration of silicon photomultipliers.1
+Tracking cosmic muons with gas electron multipliers.2
+Gravitational-wave interferometer.1
+High sensitivity seismometer.1
+X-stralen flux- en dosismetingen.2
+Kalibratie van de Herakles CT-XRF scanner.2
+Ultra-snelle X-stralen microtomografie.2
+Neutrino-oscillaties met gekoppelde slingers.2
+Efficiënte witte en rode glow-in-the-dark materialen.2
+Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.1
+Nanoporeuze materialen voor luchtzuivering.2
+Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.1
+AC-Magnetometrie van magnetische nanodeeltjes.1
+Van sputteren tot sensor: experimenteel onderzoek naar gasochromisme in WO₃.1
+Maken en karakteriseren van een zonnecel.2
+Maken en karakteriseren van een lithium-ion batterij.2
+Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie.1
+Cepheïden.1
+Nevelspectroscopie.1
+Karakteriseren van de zon.1
+De GUST radiotelescoop.1
+Karakteriseren van Jupiter.1
+Van 2 tot 10 meter; de eerste verticale windmetingen.1
+KLIMAATTRAPPERS: Mobiele metingen thermaal comfort.2
