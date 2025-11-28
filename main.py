@@ -26,6 +26,7 @@ def lees_studenten_voorkeuren(bestandsnaam):
             projecten = [project.strip() for project in delen[1:]]
 
             voorkeuren[naam] = projecten
+            print(projecten)
 
     return voorkeuren
 
