@@ -1,46 +1,47 @@
-AnnaJansen.Karakteriseren van de zon.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.X-stralen flux- en dosismetingen.Nevelspectroscopie.Nanoporeuze materialen voor luchtzuivering
-BramPeeters.Flipped acoustics lab.Kalibratie van de Herakles CT-XRF scanner.Ultra-snelle X-stralen microtomografie.AC-Magnetometrie van magnetische nanodeeltjes.Developing a Beam Monitor for the SHiP Experiment at CERN
-ClaraDeSmet.Efficiënte witte en rode glow-in-the-dark materialen.Oppervlakteverbetering van elektrogesponnen scaffolds.De GUST radiotelescoop.IceCube LED display and Event Topologies.KLIMAATTRAPPERS: Mobiele metingen thermisch comfort
-DaanVermeulen.Efficiënte witte en rode glow-in-the-dark materialen.X-stralen flux- en dosismetingen.Comparative study of VOC degradation.Maken en karakteriseren van een lithium-ion batterij.Karakteriseren van de zon
-EmmaClaes.Van sputteren tot sensor.Heartbeat.Kalibratie van de Herakles CT-XRF scanner.Efficiënte witte en rode glow-in-the-dark materialen.Calibration of silicon photomultipliers
-FinnMaes.Van sputteren tot sensor.Nevelspectroscopie.IceCube LED display and Event Topologies.Magnetic stabilization of a vortex discharge.Van 2 tot 10 meter: eerste verticale windmetingen
-GitteWouters.Efficiënte witte en rode glow-in-the-dark materialen.Gravitational-wave interferometer.Maken en karakteriseren van een zonnecel.Karakteriseren van Jupiter.Emergency dosimetrie via EPR-spectroscopie
-HugoVanDijk.Cepheïden.Oppervlakteverbetering van elektrogesponnen scaffolds.X-stralen flux- en dosismetingen.Developing a Beam Monitor for the SHiP Experiment at CERN.Maken en karakteriseren van een zonnecel
-IlseVerstraeten.High sensitivity seismometer.Neutrino-oscillaties met gekoppelde slingers.Heartbeat.Flipped acoustics lab.Calibration of silicon photomultipliers
-JasperLenaerts.Nevelspectroscopie.IceCube LED display and Event Topologies.Van sputteren tot sensor.Nanoporeuze materialen voor luchtzuivering.Karakteriseren van de zon
-KatoWillems.Efficiënte witte en rode glow-in-the-dark materialen.X-stralen flux- en dosismetingen.KLIMAATTRAPPERS: Mobiele metingen thermisch comfort.Tracking cosmic muons with gas electron multipliers.Magnetic stabilization of a vortex discharge
-LarsSwinnen.Heartbeat.Fosfor-CSI.Cepheïden.Calibration of silicon photomultipliers.Nevelspectroscopie
-MilaVanAcker.AC-Magnetometrie van magnetische nanodeeltjes.Maken en karakteriseren van een zonnecel.Developing a Beam Monitor for the SHiP Experiment at CERN.Van sputteren tot sensor.Oppervlakteverbetering van elektrogesponnen scaffolds
-NoahDeVos.Ultra-snelle X-stralen microtomografie.Nevelspectroscopie.De GUST radiotelescoop.IceCube LED display and Event Topologies.Kalibratie van de Herakles CT-XRF scanner
-OliviaVandamme.Van 2 tot 10 meter verticale windmetingen.Karakteriseren van Jupiter.Flipped acoustics lab.IceCube LED display and Event Topologies.Nanoporeuze materialen voor luchtzuivering
-PieterGoossens.Efficiënte witte en rode glow-in-the-dark materialen.Magnetic stabilization of a vortex discharge.Maken en karakteriseren van een zonnecel.Emergency dosimetrie via EPR.Comparative study of VOC degradation
-QuintenSegers.Karakteriseren van de zon.Efficiënte witte en rode glow-in-the-dark materialen.IceCube LED display and Event Topologies.Calibration of silicon photomultipliers.Maken en karakteriseren van een zonnecel
-RobinVercammen.Efficiënte witte en rode glow-in-the-dark materialen.Developing a Beam Monitor for the SHiP Experiment at CERN.KLIMAATTRAPPERS.High sensitivity seismometer.Maken en karakteriseren van een lithium-ion batterij
-SofieHendrickx.Oppervlakteverbetering van elektrogesponnen scaffolds.Tracking cosmic muons.Nevelspectroscopie.Karakteriseren van Jupiter.Fosfor-CSI
-ThomasDeRidder.Nanoporeuze materialen voor luchtzuivering.Heartbeat.Van sputteren tot sensor.X-stralen flux- en dosismetingen.Cepheïden
-UweVanderlinden.Efficiënte witte en rode glow-in-the-dark materialen.Karakteriseren van de zon.Van 2 tot 10 meter.Nevelspectroscopie.Cepheïden
-VeraSchoeters.Ultra-snelle X-stralen microtomografie.Kalibratie van de Herakles CT-XRF scanner.Neutrino-oscillaties.Flipped acoustics lab.High sensitivity seismometer
-WoutMichiels.Efficiënte witte en rode glow-in-the-dark materialen.Maken en karakteriseren van een lithium-ion batterij.Fosfor-CSI.Van sputteren tot sensor.Karakteriseren van Jupiter
-XanderDeBruyn.De GUST radiotelescoop.IceCube LED display and Event Topologies.Nevelspectroscopie.Calibration of silicon photomultipliers.Nevelspectroscopie
-YanaBoone.Emergency dosimetrie via EPR.KLIMAATTRAPPERS.Tracking cosmic muons.IceCube LED display and Event Topologies.Maken en karakteriseren van een zonnecel
-ZitaLeemans.Efficiënte witte en rode glow-in-the-dark materialen.Magnetic stabilization of a vortex discharge.Maken en karakteriseren van een zonnecel.Van 2 tot 10 meter.X-stralen flux- en dosismetingen
-ArneDeWinter.Kalibratie van de Herakles CT-XRF scanner.Developing a Beam Monitor for the SHiP Experiment at CERN.Cepheïden.Flipped acoustics lab.Comparative study of VOC degradation
-BiekeVerhulst.Van 2 tot 10 meter.Ultra-snelle X-stralen microtomografie.De GUST radiotelescoop.Heartbeat.Nevelspectroscopie
-CedricVanhove.Nevelspectroscopie.Calibration of silicon photomultipliers.Fosfor-CSI.Karakteriseren van de zon.AC-Magnetometrie
-DorienGryson.Maken en karakteriseren van een zonnecel.Van sputteren tot sensor.IceCube LED display.X-stralen flux- en dosismetingen.Karakteriseren van Jupiter
-EwoutDeMeyer.Tracking cosmic muons.High sensitivity seismometer.Karakteriseren van Jupiter.Oppervlakteverbetering.Maken en karakteriseren van een lithium-ion batterij
-FemkeLemmens.Maken en karakteriseren van een zonnecel.Heartbeat.Cepheïden.Developing a Beam Monitor.Efficiënte witte en rode glow-in-the-dark materialen
-GillesVanRoy.IceCube LED display and Event Topologies.Nanoporeuze materialen voor luchtzuivering.AC-Magnetometrie.KLIMAATTRAPPERS.Magnetic stabilization
-HanneCeulemans.X-stralen flux- en dosismetingen.Nevelspectroscopie.Nevelspectroscopie.Ultra-snelle X-stralen microtomografie.Karakteriseren van Jupiter
-IvoDeSchepper.Neutrino-oscillaties.Van sputteren tot sensor.Comparative study of VOC degradation.Calibration of silicon photomultipliers.Cepheïden
-JolienVanhout.Maken en karakteriseren van een zonnecel.IceCube LED display.Maken en karakteriseren van een lithium-ion batterij.Fosfor-CSI.Oppervlakteverbetering
-KennyHoste.Flipped acoustics lab.Kalibratie van de Herakles CT-XRF scanner.De GUST radiotelescoop.IceCube LED display.Emergency dosimetrie via EPR
-LunaDeRoeck.Maken en karakteriseren van een zonnecel.Calibration of silicon photomultipliers.Maken en karakteriseren van een lithium-ion batterij.Tracking cosmic muons.Heartbeat
-MatsVerlinden.Oppervlakteverbetering.Karakteriseren van Jupiter.Efficiënte witte en rode glow-in-the-dark materialen.Karakteriseren van de zon.Nevelspectroscopie
-NinaCoenen.Magnetic stabilization.AC-Magnetometrie.KLIMAATTRAPPERS.High sensitivity seismometer.Van 2 tot 10 meter
-OscarVandevelde.Tracking cosmic muons.Nevelspectroscopie.Emergency dosimetrie via EPR.Van sputteren tot sensor.Ultra-snelle X-stralen microtomografie
-PeterStaal.Efficiënte witte en rode glow-in-the-dark materialen.Maken en karakteriseren van een zonnecel.Karakteriseren van Jupiter.Oppervlakteverbetering.Developing a Beam Monitor
-QuincyMoens.X-stralen flux- en dosismetingen.Nanoporeuze materialen voor luchtzuivering.IceCube LED display.IceCube LED display.Ultra-snelle X-stralen microtomografie
-RubenSteenhaut.Emergency dosimetrie via EPR.Flipped acoustics lab.Karakteriseren van de zon.AC-Magnetometrie.Karakteriseren van Jupiter
-SarahDeKeyser.Kalibratie van de Herakles CT-XRF scanner.Magnetic stabilization.Calibration of silicon photomultipliers.De GUST radiotelescoop.Comparative study of VOC degradation
-TinekeRoels.Fosfor-CSI.Maken en karakteriseren van een zonnecel.IceCube LED display.Van 2 tot 10 meter.Maken en karakteriseren van een zonnecel
+Woyte Helena.Wollaert Camilla.Comparative study of VOC degradation via thermal plasma and post-plasma catalytic processes.Heartbeat.Nevelspectroscopie.Calibration of silicon photomultipliers.Gravitational-wave interferometer.
+Wollaert Camilla.Woyte Helena.Comparative study of VOC degradation via thermal plasma and post-plasma catalytic processes.Maken en karakteriseren van een zonnecel.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Flipped acoustics lab.Efficiënte witte en rode glow-in-the-dark materialen.
+Willems Emile.IceCube LED display and Event Topologies.Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie.X-stralen flux- en dosismetingen.Designing analog readout electronics for particle detectors.Karakteriseren van Jupiter.
+Wienk Stephen.High sensitivity seismometer.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.Karakteriseren van de zon.Neutrino-oscillaties met gekoppelde slingers.Magnetic stabilization of a vortex discharge applied for gas reforming.
+Wallays Thijs.Van Hooreweghe Emiel.Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie.Tracking cosmic muons with gas electron multipliers.De GUST radiotelescoop.Cepheïden.Ultra-snelle X-stralen microtomografie.
+Verweire Aldrik.Flipped acoustics lab.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Calibration of silicon photomultipliers.Nanoporeuze materialen voor luchtzuivering.High sensitivity seismometer.
+Verschooten Mauro.Karakteriseren van Jupiter.Van 2 tot 10 meter; de eerste verticale windmetingen.IceCube LED display and Event Topologies.Efficiënte witte en rode glow-in-the-dark materialen.Nevelspectroscopie.
+Verhoeven Noah.Room Wouter.Maken en karakteriseren van een lithium-ion batterij.Van 2 tot 10 meter; de eerste verticale windmetingen.Calibration of silicon photomultipliers.Nanoporeuze materialen voor luchtzuivering.Gravitational-wave interferometer.
+Van Tigchelt Marie-Julie.Tracking cosmic muons with gas electron multipliers.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.Cepheïden.Nanoporeuze materialen voor luchtzuivering.Calibration of silicon photomultipliers.
+Van Landeghem Bram.High sensitivity seismometer.Nevelspectroscopie.X-stralen flux- en dosismetingen.Maken en karakteriseren van een zonnecel.Gravitational-wave interferometer.
+Van Hooreweghe Emiel.Wallays Thijs.Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie.Tracking cosmic muons with gas electron multipliers.De GUST radiotelescoop.Cepheïden.Ultra-snelle X-stralen microtomografie.
+Vandomme Elmo.Neutrino-oscillaties met gekoppelde slingers.Flipped acoustics lab.De GUST radiotelescoop.High sensitivity seismometer.Karakteriseren van de zon.
+Vandevelde Oscar.Maken en karakteriseren van een lithium-ion batterij.Van 2 tot 10 meter; de eerste verticale windmetingen.Calibration of silicon photomultipliers.Nanoporeuze materialen voor luchtzuivering.Gravitational-wave interferometer.
+Van Damme Lauren.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Maken en karakteriseren van een zonnecel.Karakteriseren van Jupiter.Heartbeat.Nanoporeuze materialen voor luchtzuivering.
+Van Acker Lowie.Comparative study of VOC degradation via thermal plasma and post-plasma catalytic processes.Ultra-snelle X-stralen microtomografie.De GUST radiotelescoop.Calibration of silicon photomultipliers.Karakteriseren van de zon.
+Uyttendaele Mauro.Nevelspectroscopie.IceCube LED display and Event Topologies.Magnetic stabilization of a vortex discharge applied for gas reforming.X-stralen flux- en dosismetingen.Karakteriseren van Jupiter.
+Sette Dayo.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.Neutrino-oscillaties met gekoppelde slingers.Karakteriseren van de zon.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Nanoporeuze materialen voor luchtzuivering.
+Room Wouter.Verhoeven Noah.Maken en karakteriseren van een lithium-ion batterij.Van 2 tot 10 meter; de eerste verticale windmetingen.Calibration of silicon photomultipliers.Nanoporeuze materialen voor luchtzuivering.Gravitational-wave interferometer.
+Ronsijn Nele.High sensitivity seismometer.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.IceCube LED display and Event Topologies.Maken en karakteriseren van een lithium-ion batterij.Cepheïden.
+Rommens Leon.Nanoporeuze materialen voor luchtzuivering.Calibration of silicon photomultipliers.Karakteriseren van Jupiter.Flipped acoustics lab.X-stralen flux- en dosismetingen.
+Rogiers Ilias.Magnetic stabilization of a vortex discharge applied for gas reforming.Nevelspectroscopie.Karakteriseren van de zon.Tracking cosmic muons with gas electron multipliers.Gravitational-wave interferometer.
+Prins Ingmar.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.Maken en karakteriseren van een zonnecel.High sensitivity seismometer.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Nanoporeuze materialen voor luchtzuivering.
+Oreel Jan.Calibration of silicon photomultipliers.Karakteriseren van Jupiter.Ultra-snelle X-stralen microtomografie.Cepheïden.High sensitivity seismometer.
+Noppe Daan.X-stralen flux- en dosismetingen.Nevelspectroscopie.Nanoporeuze materialen voor luchtzuivering.Magnetic stabilization of a vortex discharge applied for gas reforming.Heartbeat.
+Neels Kaat.Karakteriseren van de zon.IceCube LED display and Event Topologies.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.De GUST radiotelescoop.Efficiënte witte en rode glow-in-the-dark materialen.
+Marien Wannes.Neutrino-oscillaties met gekoppelde slingers.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Calibration of silicon photomultipliers.Karakteriseren van Jupiter.Nanoporeuze materialen voor luchtzuivering.
+Maeyens Bense.Tracking cosmic muons with gas electron multipliers.Maken en karakteriseren van een zonnecel.Heartbeat.High sensitivity seismometer.Van 2 tot 10 meter; de eerste verticale windmetingen.
+Huybrechts Finn.AC-Magnetometrie van magnetische nanodeeltjes.X-stralen flux- en dosismetingen.Magnetic stabilization of a vortex discharge applied for gas reforming.De GUST radiotelescoop.Nevelspectroscopie.
+Hilderson Tristan.Calibration of silicon photomultipliers.Karakteriseren van de zon.Magnetic stabilization of a vortex discharge applied for gas reforming.Nanoporeuze materialen voor luchtzuivering.Cepheïden.
+Goossens Arthur.IceCube LED display and Event Topologies.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Karakteriseren van Jupiter.High sensitivity seismometer.Gravitational-wave interferometer.
+Glorie Winston.Nanoporeuze materialen voor luchtzuivering.Flipped acoustics lab.Karakteriseren van de zon.Ultra-snelle X-stralen microtomografie.Calibration of silicon photomultipliers.
+Geudens Niels.Heartbeat.Nevelspectroscopie.Efficiënte witte en rode glow-in-the-dark materialen.Karakteriseren van Jupiter.Magnetic stabilization of a vortex discharge applied for gas reforming.
+Dewettinck Febe.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.De GUST radiotelescoop.Calibration of silicon photomultipliers.Cepheïden.Nanoporeuze materialen voor luchtzuivering.
+De Visscher Olivier.Ultra-snelle X-stralen microtomografie.Nanoporeuze materialen voor luchtzuivering.Flipped acoustics lab.Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie.Karakteriseren van de zon.
+De Strycker Kasper.Gravitational-wave interferometer.High sensitivity seismometer.Karakteriseren van Jupiter.Nevelspectroscopie.Calibration of silicon photomultipliers.
+Deré Axel.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Nanoporeuze materialen voor luchtzuivering.Tracking cosmic muons with gas electron multipliers.Karakteriseren van de zon.IceCube LED display and Event Topologies.
+De Meersman Maxim.Neutrino-oscillaties met gekoppelde slingers.X-stralen flux- en dosismetingen.Karakteriseren van Jupiter.Maken en karakteriseren van een zonnecel.Efficiënte witte en rode glow-in-the-dark materialen.
+De Maeyer Zeno.Heartbeat.Nanoporeuze materialen voor luchtzuivering.Ultra-snelle X-stralen microtomografie.Magnetic stabilization of a vortex discharge applied for gas reforming.Karakteriseren van de zon.
+De Maertelaere Bas.Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie.De GUST radiotelescoop.Calibration of silicon photomultipliers.Nevelspectroscopie.Karakteriseren van Jupiter.
+De Clercq Rune.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.High sensitivity seismometer.Karakteriseren van de zon.Efficiënte witte en rode glow-in-the-dark materialen.IceCube LED display and Event Topologies.
+Debouvere Jelle.X-stralen flux- en dosismetingen.Gravitational-wave interferometer.Nanoporeuze materialen voor luchtzuivering.Flipped acoustics lab.Karakteriseren van Jupiter.
+Coene Flor.Magnetic stabilization of a vortex discharge applied for gas reforming.Calibration of silicon photomultipliers.Heartbeat.Neutrino-oscillaties met gekoppelde slingers.Karakteriseren van de zon.
+Claessen Jorn.Tracking cosmic muons with gas electron multipliers.Ultra-snelle X-stralen microtomografie.Karakteriseren van Jupiter.Nevelspectroscopie.Nanoporeuze materialen voor luchtzuivering.
+Camps Tim.IceCube LED display and Event Topologies.High sensitivity seismometer.Maken en karakteriseren van een lithium-ion batterij.Van 2 tot 10 meter; de eerste verticale windmetingen.Karakteriseren van de zon.
+Brik Joseph.Nanoporeuze materialen voor luchtzuivering.Emergency dosimetrie met alledaagse materialen via EPR-spectroscopie.Magnetic stabilization of a vortex discharge applied for gas reforming.Karakteriseren van Jupiter.Ultra-snelle X-stralen microtomografie.
+Belpaire Vincent.Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren.Nevelspectroscopie.Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie.Karakteriseren van de zon.Tracking cosmic muons with gas electron multipliers.
+Bastiaens Luka.High sensitivity seismometer.Nanoporeuze materialen voor luchtzuivering.X-stralen flux- en dosismetingen.Gravitational-wave interferometer.Karakteriseren van Jupiter.

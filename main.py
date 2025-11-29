@@ -8,6 +8,7 @@ def main(bestandvoorkeuren, bestandprojecten, aantaliteraties=50):
     beste_toewijzing = []
     beste_som = float('inf')
 
+    paren = detecteer_paren(voorkeuren, partners, projecten)
     for i in range(aantaliteraties):
 
         # random volgorde van studenten
@@ -16,8 +17,6 @@ def main(bestandvoorkeuren, bestandprojecten, aantaliteraties=50):
         # kopie van projecten
         projecten_copy = projecten.copy()
 
-        # paren detecteren
-        paren = detecteer_paren(voorkeuren_random, partners_random, projecten_copy)
 
         toewijzing, som = wijs_projecten_toe(voorkeuren_random, partners_random, projecten_copy, paren)
 
@@ -115,41 +114,56 @@ def detecteer_paren(voorkeuren, partners, projecten):
     return paren
 
 
-def wijs_projecten_toe(voorkeuren, partners, projecten, paren):
+def wijs_projecten_toe(voorkeuren, partners, projecten, paren, som=0):
+    """
+    Wijs projecten toe in maximaal 5 rondes.
+    - In ronde i wordt keuze[i] gebruikt.
+    - Studenten die misgrijpen schuiven automatisch door naar een volgende ronde.
+    - Paren worden altijd samen behandeld.
+    """
+
+    max_rondes = 6
     toewijzing = {student: None for student in voorkeuren}
-    max_rondes = max(len(v) for v in voorkeuren.values())
-    som = 0
 
-    # Zet paren om naar set-vorm voor snelle lookup
-    is_in_paar = {}
+    # Mapping voor snelle lookup
+    partner_van = {}
     for a, b in paren:
-        is_in_paar[a] = b
-        is_in_paar[b] = a
+        partner_van[a] = b
+        partner_van[b] = a
 
-
+    # ---- Ronde-per-ronde toewijzen ----
     for ronde in range(max_rondes):
 
-        # Eerst paren verwerken
+        # 1) Eerst alle paren behandelen
         for a, b in paren:
-            if toewijzing[a] is not None or toewijzing[b] is not None:
-                continue  # al iets gekregen
 
-            project = voorkeuren[a][ronde]
+            # al toegewezen?
+            if toewijzing[a] is not None:
+                continue
 
+            keuzes = voorkeuren[a]
+            if ronde >= len(keuzes):
+                continue  # geen keuze meer
+
+            project = keuzes[ronde]
+
+            # capaciteit check
             if projecten.get(project, 0) >= 2:
                 toewijzing[a] = project
                 toewijzing[b] = project
                 projecten[project] -= 2
+                som += (ronde + 1) * 2
 
-                som += (ronde + 1) * 2  # beide tellen mee
-
-        # Dan solo studenten
+        # 2) Solo studenten
         for student, keuzes in voorkeuren.items():
 
-            if student in is_in_paar:
-                continue  # paren al behandeld
-
+            # al toegewezen of deel van een paar?
             if toewijzing[student] is not None:
+                continue
+            if student in partner_van:
+                continue
+
+            if ronde >= len(keuzes):
                 continue
 
             project = keuzes[ronde]
@@ -157,16 +171,15 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren):
             if projecten.get(project, 0) > 0:
                 toewijzing[student] = project
                 projecten[project] -= 1
+                print(ronde + 1)
                 som += (ronde + 1)
 
-    # Straf voor studenten zonder project
+    # Strafpunten voor wie geen project heeft
     for student, project in toewijzing.items():
         if project is None:
             som += 6
 
     return toewijzing, som
-
-
 
 if __name__ == "__main__":
     start = time.time()
@@ -174,7 +187,7 @@ if __name__ == "__main__":
     bestandvoorkeuren = "voorbeeldlijststudenten.txt"
     bestandprojecten = "projecten2526.txt"
 
-    beste_toewijzing, beste_som = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=10000)
+    beste_toewijzing, beste_som = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=100)
 
     end = time.time()
 
