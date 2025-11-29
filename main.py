@@ -7,41 +7,38 @@ def main(bestandvoorkeuren, bestandprojecten, aantaliteraties=50):
 
     beste_toewijzing = []
     beste_som = float('inf')
+    beste_eerste = 0
 
     paren = detecteer_paren(voorkeuren, partners, projecten)
-    for i in range(aantaliteraties):
-
+    for _ in range(aantaliteraties):
         # random volgorde van studenten
         voorkeuren_random, partners_random = willekeurigevolgorde(voorkeuren, partners)
-
         # kopie van projecten
         projecten_copy = projecten.copy()
 
-
-        toewijzing, som = wijs_projecten_toe(voorkeuren_random, partners_random, projecten_copy, paren)
+        toewijzing, som, eerstekeuze = wijs_projecten_toe(voorkeuren_random, partners_random, projecten_copy, paren)
 
         if som < beste_som:
             beste_som = som
             beste_toewijzing = [toewijzing]
         elif som == beste_som:
-            beste_toewijzing.append(toewijzing)
+            if eerstekeuze > beste_eerste:
+                beste_eerste = eerstekeuze
+                beste_toewijzing.append(toewijzing)
 
-    return beste_toewijzing, beste_som
+    return beste_toewijzing, beste_som, beste_eerste
 
 
 def lees_studenten_voorkeuren(bestandsnaam):
     voorkeuren = {}
     partners = {}
-
     with open(bestandsnaam, "r", encoding="utf-8") as f:
         for lijn in f:
             lijn = lijn.strip()
             if lijn == "":
                 continue
-
             delen = [d.strip() for d in lijn.split(".")]
             naam = delen[0]
-
             # Als tweede veld een partner is
             if len(delen) > 2 and (delen[1] in voorkeuren or delen[1].isalpha()):
                 partner = delen[1]
@@ -49,10 +46,8 @@ def lees_studenten_voorkeuren(bestandsnaam):
             else:
                 partner = None
                 keuzes = delen[1:]
-
             voorkeuren[naam] = keuzes
             partners[naam] = partner
-
     return voorkeuren, partners
 
 
@@ -63,12 +58,10 @@ def uitlezen_projecten_aantal(bestandsnaam):
             lijn = lijn.strip()
             if lijn == "":
                 continue
-
             delen = lijn.split(".")
             project_naam = delen[0].strip()
             aantal = int(delen[1].strip())
             projecten[project_naam] = aantal
-
     return projecten
 
 
@@ -99,13 +92,10 @@ def detecteer_paren(voorkeuren, partners, projecten):
         # beide moeten zelfde eerste keuze hebben
         if voorkeuren[student][0] != voorkeuren[partner][0]:
             continue
-
         project = voorkeuren[student][0]
-
         # capaciteit check
         if projecten.get(project, 0) < 2:
             continue
-
         # geldige paar gevonden
         paren.append((student, partner))
         gebruikt.add(student)
@@ -114,29 +104,26 @@ def detecteer_paren(voorkeuren, partners, projecten):
     return paren
 
 
-def wijs_projecten_toe(voorkeuren, partners, projecten, paren, som=0):
+def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
     """
     Wijs projecten toe in maximaal 5 rondes.
     - In ronde i wordt keuze[i] gebruikt.
-    - Studenten die misgrijpen schuiven automatisch door naar een volgende ronde.
+    - Studenten wiens keuze[i] niet beschikbaar is, schuiven automatisch door naar een volgende ronde.
     - Paren worden altijd samen behandeld.
     """
-
-    max_rondes = 6
+    som=0
+    eerstekeuze = 0
     toewijzing = {student: None for student in voorkeuren}
 
-    # Mapping voor snelle lookup
     partner_van = {}
     for a, b in paren:
         partner_van[a] = b
         partner_van[b] = a
 
-    # ---- Ronde-per-ronde toewijzen ----
+    # Ronde-per-ronde toewijzen
     for ronde in range(max_rondes):
-
         # 1) Eerst alle paren behandelen
         for a, b in paren:
-
             # al toegewezen?
             if toewijzing[a] is not None:
                 continue
@@ -146,32 +133,31 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, som=0):
                 continue  # geen keuze meer
 
             project = keuzes[ronde]
-
             # capaciteit check
             if projecten.get(project, 0) >= 2:
                 toewijzing[a] = project
                 toewijzing[b] = project
                 projecten[project] -= 2
                 som += (ronde + 1) * 2
+                eerstekeuze += 2
 
         # 2) Solo studenten
         for student, keuzes in voorkeuren.items():
-
             # al toegewezen of deel van een paar?
             if toewijzing[student] is not None:
                 continue
             if student in partner_van:
                 continue
-
             if ronde >= len(keuzes):
                 continue
 
             project = keuzes[ronde]
 
             if projecten.get(project, 0) > 0:
+                if ronde == 0:
+                    eerstekeuze += 1  
                 toewijzing[student] = project
                 projecten[project] -= 1
-                print(ronde + 1)
                 som += (ronde + 1)
 
     # Strafpunten voor wie geen project heeft
@@ -179,7 +165,7 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, som=0):
         if project is None:
             som += 6
 
-    return toewijzing, som
+    return toewijzing, som, eerstekeuze
 
 if __name__ == "__main__":
     start = time.time()
@@ -187,7 +173,7 @@ if __name__ == "__main__":
     bestandvoorkeuren = "voorbeeldlijststudenten.txt"
     bestandprojecten = "projecten2526.txt"
 
-    beste_toewijzing, beste_som = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=100)
+    beste_toewijzing, beste_som, beste_eerste = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=100000)
 
     end = time.time()
 
@@ -195,5 +181,5 @@ if __name__ == "__main__":
     print("Beste toewijzing(en):")
     for t in beste_toewijzing:
         print(t, "\n")
-
+    print("Beste aantal eerste keuzes:", beste_eerste)
     print(f"Runtime: {end - start:.4f} seconds")
