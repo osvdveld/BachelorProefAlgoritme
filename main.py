@@ -173,7 +173,7 @@ if __name__ == "__main__":
     bestandvoorkeuren = "voorbeeldlijststudenten.txt"
     bestandprojecten = "projecten2526.txt"
 
-    beste_toewijzing, beste_som, beste_eerste = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=100000)
+    beste_toewijzing, beste_som, beste_eerste = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=10000)
 
     end = time.time()
 
