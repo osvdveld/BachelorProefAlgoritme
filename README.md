@@ -5,8 +5,9 @@ BELANGRIJK: De namen van studenten (bij paren) en de projecten moeten gescheiden
 
 Zoals u kan zien hebben sommige regels twee namen. Dit zijn mensen die (fictief) een partner opgaven voor hun eerste keuze project. (De eerste naam is de student, de tweede de partner.) Hiervoor zijn enkele regels: 
 - beide mensen moeten hetzelfde project op 1 hebben staan
-- de studenten moeten beide elkaars naams hebben opgegeven
-- de naam van de partner moet een valibele naam binnen de lijst van studenten zijn
+- de studenten moeten beide elkaars naam hebben opgegeven
+- de naam van de partner moet een valibele naam binnen de lijst van studenten zijn.
+
 Mensen met partners worden apart (en eerst) behandeld waardoor ze voorrang krijgen.
 
 Het programma neemt de lijst met studenten en hun projecten en 'randomiset' de volgorde van deze lijst. Dan overloopt het programma elke student die nog geen project heeft toegewezen gekregen (in het begin is dit elke student). De eerste student krijgt zijn/haar eerste keuze. Voor de overige studenten kijkt het programma of deze student zijn/haar eerste keuze nog vrij is. Zo niet, dan slaat het de student over. Dit doet het programma 5 keer (voor 5 keuzes per student). De tweede ronde kijkt het naar de tweede keuze van de student enzoverder. 
