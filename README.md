@@ -18,3 +18,7 @@ Vervolgens 'randomiset' het programma de volgorde opnieuw en doet het exact hetz
 (De grootte van de straf heeft weinig tot geen impact op het aantal niet-toegewezen projecten, zolang de straf niet te klein is. Namelijk groter dan 5.)
 
 Resultaten kan u vinden in de [map output](https://github.com/osvdveld/BachelorProefAlgoritme/tree/main/output). Dit is gegenereerd voor het voorbeeld. Wanneer u de daadwerkelijke lijst zou gebruiken, wordt dit bestand overschreven met uw resultaat.
+
+Om nieuwe lijsten van studenten met hun keuzes te maken, wordt aangeraden ChatGPT te raadplegen. Deze kan met de juiste promp gemakkelijk de juiste studenten linken met hun projecten en ervoor zorgen dat er overal punten tussenstaan.
+
+Alvast bedankt voor het bekijken/gebruiken van deze code en veel succes!

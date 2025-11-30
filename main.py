@@ -192,7 +192,10 @@ if __name__ == "__main__":
     bestandvoorkeuren = "input/voorbeeldlijststudenten.txt"
     bestandprojecten = "input/projecten2526.txt"
 
-    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=10000)
+    #Pas hier het aantal iteraties aan indien gewenst
+    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(bestandvoorkeuren, 
+                                                                                      bestandprojecten, 
+                                                                                      aantaliteraties=10000)
     gekozen_toewijzing = random.choice(beste_toewijzing)
     index = beste_toewijzing.index(gekozen_toewijzing)
     vrije_plekken = vrije_plekken_lijst[index]
