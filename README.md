@@ -8,7 +8,7 @@ Zoals u kan zien hebben sommige regels twee namen. Dit zijn mensen die (fictief)
 - de studenten moeten beide elkaars naam hebben opgegeven
 - de naam van de partner moet een valibele naam binnen de lijst van studenten zijn.
 
-Mensen met partners worden apart (en eerst) behandeld waardoor ze voorrang krijgen.
+Mensen met partners worden apart (en eerst) behandeld waardoor ze voorrang krijgen. (Ter verduidelijking: als een persoon een partner opgeeft maar de partner geeft diezelfde persoon niet op als partner blijft het programma werken. Het enige wat verandert is dat ze geen partners zijn en dat ze dus bovenstaande voorrang niet krijgen.)
 
 Het programma neemt de lijst met studenten en hun projecten en 'randomiset' de volgorde van deze lijst. Dan overloopt het programma elke student die nog geen project heeft toegewezen gekregen (in het begin is dit elke student). De eerste student krijgt zijn/haar eerste keuze. Voor de overige studenten kijkt het programma of deze student zijn/haar eerste keuze nog vrij is. Zo niet, dan slaat het de student over. Dit doet het programma 5 keer (voor 5 keuzes per student). De tweede ronde kijkt het naar de tweede keuze van de student enzoverder. 
 

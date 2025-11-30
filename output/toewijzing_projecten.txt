@@ -3,47 +3,47 @@ Projecttoewijzing per student (alfabetisch):
 Bastiaens Luka: Tracking cosmic muons with gas electron multipliers
 Belpaire Vincent: Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren
 Brik Joseph: Gravitational-wave interferometer
-Camps Tim: None
+Camps Tim: Efficiënte witte en rode glow-in-the-dark materialen
 Claessen Jorn: None
 Coene Flor: Ultra-snelle X-stralen microtomografie
-De Clercq Rune: AC-Magnetometrie van magnetische nanodeeltjes
+De Clercq Rune: Cepheïden
 De Maertelaere Bas: Neutrino-oscillaties met gekoppelde slingers
 De Maeyer Zeno: Magnetic stabilization of a vortex discharge applied for gas reforming
-De Meersman Maxim: Flipped acoustics lab
+De Meersman Maxim: Nevelspectroscopie
 De Strycker Kasper: Efficiënte witte en rode glow-in-the-dark materialen
 De Visscher Olivier: Ultra-snelle X-stralen microtomografie
 Debouvere Jelle: De GUST radiotelescoop
 Deré Axel: Nanoporeuze materialen voor luchtzuivering
 Dewettinck Febe: Comparative study of VOC degradation via thermal, plasma and post-plasma catalytic processes
 Geudens Niels: Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie
-Glorie Winston: None
+Glorie Winston: Designing analog readout electronics for particle detectors
 Goossens Arthur: Van sputteren tot sensor: experimenteel onderzoek naar gasochromisme in WO₃
-Hilderson Tristan: Cepheïden
+Hilderson Tristan: None
 Huybrechts Finn: None
 Maeyens Bense: Karakteriseren van Jupiter
 Marien Wannes: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
-Neels Kaat: Heartbeat
+Neels Kaat: None
 Noppe Daan: Developing a Beam Monitor for the SHiP Experiment at CERN
 Oreel Jan: Karakteriseren van de zon
 Prins Ingmar: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
 Rogiers Ilias: High sensitivity seismometer
-Rommens Leon: Designing analog readout electronics for particle detectors
-Ronsijn Nele: Efficiënte witte en rode glow-in-the-dark materialen
+Rommens Leon: None
+Ronsijn Nele: None
 Room Wouter: Maken en karakteriseren van een zonnecel
 Sette Dayo: Nanoporeuze materialen voor luchtzuivering
 Uyttendaele Mauro: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
-Van Acker Lowie: None
+Van Acker Lowie: Calibration of silicon photomultipliers
 Van Damme Lauren: Maken en karakteriseren van een lithium-ion batterij
 Van Hooreweghe Emiel: Van 2 tot 10 meter; de eerste verticale windmetingen
-Van Landeghem Bram: Tracking cosmic muons with gas electron multipliers
+Van Landeghem Bram: Heartbeat
 Van Tigchelt Marie-Julie: Maken en karakteriseren van een zonnecel
 Vandevelde Oscar: Kalibratie van de Herakles CT-XRF scanner
 Vandomme Elmo: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
 Verhoeven Noah: Maken en karakteriseren van een lithium-ion batterij
-Verschooten Mauro: None
+Verschooten Mauro: AC-Magnetometrie van magnetische nanodeeltjes
 Verweire Aldrik: X-stralen flux- en dosismetingen
 Wallays Thijs: IceCube LED display and Event Topologies
-Wienk Stephen: Calibration of silicon photomultipliers
-Willems Emile: Nevelspectroscopie
+Wienk Stephen: Flipped acoustics lab
+Willems Emile: Tracking cosmic muons with gas electron multipliers
 Wollaert Camilla: X-stralen flux- en dosismetingen
 Woyte Helena: Neutrino-oscillaties met gekoppelde slingers

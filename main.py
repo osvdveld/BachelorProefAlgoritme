@@ -35,10 +35,11 @@ def main(bestandvoorkeuren, bestandprojecten, aantaliteraties=50):
     return beste_toewijzingen, beste_som, max_eerste, aantaliteraties, vrije_plekken_lijst
 
 
-
 def lees_studenten_voorkeuren(bestandsnaam):
     voorkeuren = {}
     partners = {}
+    alle_namen = set()
+    # verzamel namen om later paren te maken
     with open(bestandsnaam, "r", encoding="utf-8") as f:
         for lijn in f:
             lijn = lijn.strip()
@@ -46,15 +47,26 @@ def lees_studenten_voorkeuren(bestandsnaam):
                 continue
             delen = [d.strip() for d in lijn.split(".")]
             naam = delen[0]
-            # Als tweede veld een partner is
-            if len(delen) > 2 and (delen[1] in voorkeuren or delen[1].isalpha()):
+            alle_namen.add(naam)
+
+    # paren maken en keuzen linken
+    with open(bestandsnaam, "r", encoding="utf-8") as f:
+        for lijn in f:
+            lijn = lijn.strip()
+            if lijn == "":
+                continue
+            delen = [d.strip() for d in lijn.split(".")]
+            naam = delen[0]
+
+            # partner = tweede veld, maar alleen als die naam in het tekstbestand voorkomt
+            if delen[1] in alle_namen:
                 partner = delen[1]
                 keuzes = delen[2:]
             else:
                 partner = None
                 keuzes = delen[1:]
-            voorkeuren[naam] = keuzes
             partners[naam] = partner
+            voorkeuren[naam] = keuzes
     return voorkeuren, partners
 
 
@@ -119,7 +131,6 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
     - Paren worden altijd samen behandeld.
     """
     som=0
-    eerstekeuze = 0
     toewijzing = {student: None for student in voorkeuren}
 
     partner_van = {}
@@ -181,7 +192,6 @@ def tel_eerste_keuzes(toewijzing, voorkeuren):
         if voorkeuren[student][0] == project:
             count += 1
     return count
-
 
 
 
