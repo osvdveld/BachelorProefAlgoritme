@@ -1,0 +1,49 @@
+Projecttoewijzing per student (alfabetisch):
+
+Bastiaens Luka: Tracking cosmic muons with gas electron multipliers
+Belpaire Vincent: Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren
+Brik Joseph: Gravitational-wave interferometer
+Camps Tim: Efficiënte witte en rode glow-in-the-dark materialen
+Claessen Jorn: Designing analog readout electronics for particle detectors
+Coene Flor: Ultra-snelle X-stralen microtomografie
+De Clercq Rune: None
+De Maertelaere Bas: Neutrino-oscillaties met gekoppelde slingers
+De Maeyer Zeno: Magnetic stabilization of a vortex discharge applied for gas reforming
+De Meersman Maxim: Flipped acoustics lab
+De Strycker Kasper: Efficiënte witte en rode glow-in-the-dark materialen
+De Visscher Olivier: Ultra-snelle X-stralen microtomografie
+Debouvere Jelle: De GUST radiotelescoop
+Deré Axel: Nanoporeuze materialen voor luchtzuivering
+Dewettinck Febe: Comparative study of VOC degradation via thermal, plasma and post-plasma catalytic processes
+Geudens Niels: Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie
+Glorie Winston: None
+Goossens Arthur: Heartbeat
+Hilderson Tristan: Cepheïden
+Huybrechts Finn: Nanoporeuze materialen voor luchtzuivering
+Maeyens Bense: Karakteriseren van Jupiter
+Marien Wannes: Van sputteren tot sensor: experimenteel onderzoek naar gasochromisme in WO₃
+Neels Kaat: None
+Noppe Daan: Developing a Beam Monitor for the SHiP Experiment at CERN
+Oreel Jan: Karakteriseren van de zon
+Prins Ingmar: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
+Rogiers Ilias: High sensitivity seismometer
+Rommens Leon: None
+Ronsijn Nele: None
+Room Wouter: Maken en karakteriseren van een zonnecel
+Sette Dayo: X-stralen flux- en dosismetingen
+Uyttendaele Mauro: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
+Van Acker Lowie: None
+Van Damme Lauren: Maken en karakteriseren van een lithium-ion batterij
+Van Hooreweghe Emiel: Van 2 tot 10 meter; de eerste verticale windmetingen
+Van Landeghem Bram: Tracking cosmic muons with gas electron multipliers
+Van Tigchelt Marie-Julie: Maken en karakteriseren van een zonnecel
+Vandevelde Oscar: Kalibratie van de Herakles CT-XRF scanner
+Vandomme Elmo: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
+Verhoeven Noah: Maken en karakteriseren van een lithium-ion batterij
+Verschooten Mauro: AC-Magnetometrie van magnetische nanodeeltjes
+Verweire Aldrik: X-stralen flux- en dosismetingen
+Wallays Thijs: IceCube LED display and Event Topologies
+Wienk Stephen: Calibration of silicon photomultipliers
+Willems Emile: Nevelspectroscopie
+Wollaert Camilla: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
+Woyte Helena: Neutrino-oscillaties met gekoppelde slingers

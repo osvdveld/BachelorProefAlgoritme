@@ -189,24 +189,32 @@ def tel_eerste_keuzes(toewijzing, voorkeuren):
 if __name__ == "__main__":
     start = time.time()
 
-    bestandvoorkeuren = "voorbeeldlijststudenten.txt"
-    bestandprojecten = "projecten2526.txt"
+    bestandvoorkeuren = "input/voorbeeldlijststudenten.txt"
+    bestandprojecten = "input/projecten2526.txt"
 
-    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=100)
+    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=10000)
     gekozen_toewijzing = random.choice(beste_toewijzing)
     index = beste_toewijzing.index(gekozen_toewijzing)
     vrije_plekken = vrije_plekken_lijst[index]
     end = time.time()
 
-    
-    print("Random keuze uit de lijst van beste toewijzingen: \n")
-    print(gekozen_toewijzing)
 
-    print("\nVrije plekken na deze toewijzing:")
-    print(f"{vrije_plekken}")
-    print("\nBeste som:", beste_som)
-    print(len(beste_toewijzing), "beste toewijzing(en) gevonden.")
-    print(f"Dit komt neer op {(len(beste_toewijzing) /  aantaliter * 100):.2f}% van alle iteraties.")
-    print("Het aantal studenten dat zijn/haar eerste keuze krijgt:", beste_eerste)
+    with open("output/toewijzing_projecten.txt", "w", encoding="utf-8") as f:
+        f.write("Projecttoewijzing per student (alfabetisch):\n\n")
+        for student in sorted(gekozen_toewijzing.keys()):
+            f.write(f"{student}: {gekozen_toewijzing[student]}\n")
 
+    with open("output/vrije_plekken.txt", "w", encoding="utf-8") as f:
+        f.write("Vrije plekken na toewijzing:\n\n")
+        for project, cap in vrije_plekken.items():
+            f.write(f"{project}: {cap}\n")
+
+
+    print("\nBeste som:", beste_som) 
+    print(len(beste_toewijzing), "beste toewijzing(en) gevonden.") 
+    print(f"Dit komt neer op {(len(beste_toewijzing) / aantaliter * 100):.2f}% van alle iteraties.") 
+    print("Het aantal studenten dat zijn/haar eerste keuze krijgt:", beste_eerste) 
     print(f"Runtime: {end - start:.4f} seconds")
+    print("\nBestanden zijn opgeslagen:")
+    print("- toewijzing.txt")
+    print("- vrije_plekken.txt")
