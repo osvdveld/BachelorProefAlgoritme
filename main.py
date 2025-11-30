@@ -5,28 +5,35 @@ def main(bestandvoorkeuren, bestandprojecten, aantaliteraties=50):
     voorkeuren, partners = lees_studenten_voorkeuren(bestandvoorkeuren)
     projecten = uitlezen_projecten_aantal(bestandprojecten)
 
-    beste_toewijzing = []
+    beste_toewijzingen = []
     beste_som = float('inf')
-    beste_eerste = 0
-
+    vrije_plekken_lijst = []
     paren = detecteer_paren(voorkeuren, partners, projecten)
+
     for _ in range(aantaliteraties):
-        # random volgorde van studenten
         voorkeuren_random, partners_random = willekeurigevolgorde(voorkeuren, partners)
-        # kopie van projecten
         projecten_copy = projecten.copy()
 
-        toewijzing, som, eerstekeuze = wijs_projecten_toe(voorkeuren_random, partners_random, projecten_copy, paren)
+        toewijzing, som, vrije_plekken = wijs_projecten_toe(voorkeuren_random, partners_random, projecten_copy, paren)
 
         if som < beste_som:
             beste_som = som
-            beste_toewijzing = [toewijzing]
-        elif som == beste_som:
-            if eerstekeuze > beste_eerste:
-                beste_eerste = eerstekeuze
-                beste_toewijzing.append(toewijzing)
+            beste_toewijzingen = [toewijzing]
+            vrije_plekken_lijst = [vrije_plekken]
 
-    return beste_toewijzing, beste_som, beste_eerste
+        elif som == beste_som:
+            beste_toewijzingen.append(toewijzing)
+            vrije_plekken_lijst.append(vrije_plekken)
+
+    # eerste-keuze scores berekenen
+    scores = [(t, tel_eerste_keuzes(t, voorkeuren)) for t in beste_toewijzingen]
+    # hoogste aantal eerste keuzes
+    max_eerste = max(score for _, score in scores)
+    # filteren
+    beste_toewijzingen = [t for t, score in scores if score == max_eerste]
+
+    return beste_toewijzingen, beste_som, max_eerste, aantaliteraties, vrije_plekken_lijst
+
 
 
 def lees_studenten_voorkeuren(bestandsnaam):
@@ -139,7 +146,6 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
                 toewijzing[b] = project
                 projecten[project] -= 2
                 som += (ronde + 1) * 2
-                eerstekeuze += 2
 
         # 2) Solo studenten
         for student, keuzes in voorkeuren.items():
@@ -153,9 +159,7 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
 
             project = keuzes[ronde]
 
-            if projecten.get(project, 0) > 0:
-                if ronde == 0:
-                    eerstekeuze += 1  
+            if projecten.get(project, 0) > 0:  
                 toewijzing[student] = project
                 projecten[project] -= 1
                 som += (ronde + 1)
@@ -165,7 +169,22 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
         if project is None:
             som += 6
 
-    return toewijzing, som, eerstekeuze
+    # Niet-toegewezen projecten
+    vrije_plekken = {project: cap for project, cap in projecten.items() if cap > 0}
+
+    return toewijzing, som, vrije_plekken
+
+
+def tel_eerste_keuzes(toewijzing, voorkeuren):
+    count = 0
+    for student, project in toewijzing.items():
+        if voorkeuren[student][0] == project:
+            count += 1
+    return count
+
+
+
+
 
 if __name__ == "__main__":
     start = time.time()
@@ -173,13 +192,21 @@ if __name__ == "__main__":
     bestandvoorkeuren = "voorbeeldlijststudenten.txt"
     bestandprojecten = "projecten2526.txt"
 
-    beste_toewijzing, beste_som, beste_eerste = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=10000)
-
+    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(bestandvoorkeuren, bestandprojecten, aantaliteraties=100)
+    gekozen_toewijzing = random.choice(beste_toewijzing)
+    index = beste_toewijzing.index(gekozen_toewijzing)
+    vrije_plekken = vrije_plekken_lijst[index]
     end = time.time()
 
-    print("Beste som:", beste_som)
-    print("Beste toewijzing(en):")
-    for t in beste_toewijzing:
-        print(t, "\n")
-    print("Beste aantal eerste keuzes:", beste_eerste)
+    
+    print("Random keuze uit de lijst van beste toewijzingen: \n")
+    print(gekozen_toewijzing)
+
+    print("\nVrije plekken na deze toewijzing:")
+    print(f"{vrije_plekken}")
+    print("\nBeste som:", beste_som)
+    print(len(beste_toewijzing), "beste toewijzing(en) gevonden.")
+    print(f"Dit komt neer op {(len(beste_toewijzing) /  aantaliter * 100):.2f}% van alle iteraties.")
+    print("Het aantal studenten dat zijn/haar eerste keuze krijgt:", beste_eerste)
+
     print(f"Runtime: {end - start:.4f} seconds")
