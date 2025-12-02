@@ -1,9 +1,9 @@
 Projecttoewijzing per student (alfabetisch):
 
 Bastiaens Luka: Tracking cosmic muons with gas electron multipliers
-Belpaire Vincent: Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren
+Belpaire Vincent: Tracking cosmic muons with gas electron multipliers
 Brik Joseph: Gravitational-wave interferometer
-Camps Tim: Efficiënte witte en rode glow-in-the-dark materialen
+Camps Tim: None
 Claessen Jorn: None
 Coene Flor: Ultra-snelle X-stralen microtomografie
 De Clercq Rune: Cepheïden
@@ -16,9 +16,9 @@ Debouvere Jelle: De GUST radiotelescoop
 Deré Axel: Nanoporeuze materialen voor luchtzuivering
 Dewettinck Febe: Comparative study of VOC degradation via thermal, plasma and post-plasma catalytic processes
 Geudens Niels: Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie
-Glorie Winston: Designing analog readout electronics for particle detectors
+Glorie Winston: None
 Goossens Arthur: Van sputteren tot sensor: experimenteel onderzoek naar gasochromisme in WO₃
-Hilderson Tristan: None
+Hilderson Tristan: Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren
 Huybrechts Finn: None
 Maeyens Bense: Karakteriseren van Jupiter
 Marien Wannes: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
@@ -27,8 +27,8 @@ Noppe Daan: Developing a Beam Monitor for the SHiP Experiment at CERN
 Oreel Jan: Karakteriseren van de zon
 Prins Ingmar: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
 Rogiers Ilias: High sensitivity seismometer
-Rommens Leon: None
-Ronsijn Nele: None
+Rommens Leon: Designing analog readout electronics for particle detectors
+Ronsijn Nele: Efficiënte witte en rode glow-in-the-dark materialen
 Room Wouter: Maken en karakteriseren van een zonnecel
 Sette Dayo: Nanoporeuze materialen voor luchtzuivering
 Uyttendaele Mauro: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
@@ -40,10 +40,10 @@ Van Tigchelt Marie-Julie: Maken en karakteriseren van een zonnecel
 Vandevelde Oscar: Kalibratie van de Herakles CT-XRF scanner
 Vandomme Elmo: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
 Verhoeven Noah: Maken en karakteriseren van een lithium-ion batterij
-Verschooten Mauro: AC-Magnetometrie van magnetische nanodeeltjes
+Verschooten Mauro: Flipped acoustics lab
 Verweire Aldrik: X-stralen flux- en dosismetingen
 Wallays Thijs: IceCube LED display and Event Topologies
-Wienk Stephen: Flipped acoustics lab
-Willems Emile: Tracking cosmic muons with gas electron multipliers
+Wienk Stephen: AC-Magnetometrie van magnetische nanodeeltjes
+Willems Emile: Kalibratie van de Herakles CT-XRF scanner
 Wollaert Camilla: X-stralen flux- en dosismetingen
 Woyte Helena: Neutrino-oscillaties met gekoppelde slingers

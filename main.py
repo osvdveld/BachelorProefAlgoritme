@@ -119,7 +119,7 @@ def detecteer_paren(voorkeuren, partners, projecten):
         paren.append((student, partner))
         gebruikt.add(student)
         gebruikt.add(partner)
-
+        print(paren)
     return paren
 
 
@@ -194,30 +194,14 @@ def tel_eerste_keuzes(toewijzing, voorkeuren):
     return count
 
 
-
-
-if __name__ == "__main__":
-    start = time.time()
-
-    bestandvoorkeuren = "input/voorbeeldlijststudenten.txt"
-    bestandprojecten = "input/projecten2526.txt"
-
-    #Pas hier het aantal iteraties aan indien gewenst
-    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(bestandvoorkeuren, 
-                                                                                      bestandprojecten, 
-                                                                                      aantaliteraties=10000)
-    gekozen_toewijzing = random.choice(beste_toewijzing)
-    index = beste_toewijzing.index(gekozen_toewijzing)
-    vrije_plekken = vrije_plekken_lijst[index]
-    end = time.time()
-
-
-    with open("output/toewijzing_projecten.txt", "w", encoding="utf-8") as f:
+def output(gekozen_toewijzing, vrije_plekken, beste_som, beste_toewijzing, beste_eerste, aantaliter, start, end,
+            outputprojecten="output/toewijzing_projecten", outputvrijeplekken="output/vrije_plekken"):
+    with open(f"{outputprojecten}.txt", "w", encoding="utf-8") as f:
         f.write("Projecttoewijzing per student (alfabetisch):\n\n")
         for student in sorted(gekozen_toewijzing.keys()):
             f.write(f"{student}: {gekozen_toewijzing[student]}\n")
 
-    with open("output/vrije_plekken.txt", "w", encoding="utf-8") as f:
+    with open(f"{outputvrijeplekken}.txt", "w", encoding="utf-8") as f:
         f.write("Vrije plekken na toewijzing:\n\n")
         for project, cap in vrije_plekken.items():
             f.write(f"{project}: {cap}\n")
@@ -229,5 +213,29 @@ if __name__ == "__main__":
     print("Het aantal studenten dat zijn/haar eerste keuze krijgt:", beste_eerste) 
     print(f"Runtime: {end - start:.4f} seconds")
     print("\nBestanden zijn opgeslagen:")
-    print("- toewijzing.txt")
-    print("- vrije_plekken.txt")
+    print(f"- {outputprojecten}.txt")
+    print(f"- {outputvrijeplekken}.txt")
+
+
+
+
+if __name__ == "__main__":
+    start = time.time()
+
+    # Pas hier de bestandnamen aan indien nodig
+    keuzesbestand = "input/voorbeeldlijststudenten.txt"
+    projectenbestand = "input/Projecten2526.txt"
+
+    # Pas hier het aantal iteraties aan indien nodig
+    beste_toewijzing, beste_som, beste_eerste, aantaliter, vrije_plekken_lijst = main(keuzesbestand, 
+                                                                                      projectenbestand, 
+                                                                                      aantaliteraties = 100)
+    gekozen_toewijzing = random.choice(beste_toewijzing)
+    index = beste_toewijzing.index(gekozen_toewijzing)
+    vrije_plekken = vrije_plekken_lijst[index]
+
+    end = time.time()
+
+    # Output. Pas hier de outputbestandsnamen aan indien nodig
+    output(gekozen_toewijzing, vrije_plekken, beste_som, beste_toewijzing, beste_eerste, aantaliter, start, end,
+           outputprojecten="output/toewijzing_projecten", outputvrijeplekken="output/vrije_plekken")
