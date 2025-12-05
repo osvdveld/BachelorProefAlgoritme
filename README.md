@@ -1,6 +1,6 @@
 In dit document wordt uitgelegd hoe de code werkt. Bij vragen, opmerkingen of verbeteringen: oscar.vandevelde@ugent.be. U mag natuurlijk ook altijd de code aanpassen en een Pull Request indienen op deze ([GitHub-pagina](https://github.com/osvdveld/BachelorProefAlgoritme)).
 
-Het programma neemt twee tekstbestanden aan ([zie map input](https://github.com/osvdveld/BachelorProefAlgoritme/tree/main/input)). Het eerste is een bestand waarin de titels van alle projecten staan alsook de capaciteit van elk project. Het tweede is een lijst met alle namen van de studenten met hun 5 favoriete projecten (in volgorde). (Zie tekstbestand Projecten2526.txt en voorbeeldlijststudenten.txt als voorbeeld.) Deze voorbeelden zijn ook handig voor het jaar 2025 - 2026 aangezien dit exact de namen zijn van elk project met de juiste capaciteit en ook de lijst met de namen van de studenten uit dit jaar (met weliswaar fictieve projecten). 
+Het programma neemt twee tekstbestanden aan ([zie map input](https://github.com/osvdveld/BachelorProefAlgoritme/tree/main/input)). Het eerste is een bestand waarin de titels van alle projecten staan alsook de capaciteit van elk project. Het tweede is een lijst met alle namen van de studenten met hun 5 favoriete projecten (in volgorde). (Zie tekstbestand Projecten2526.txt en voorbeeldlijststudenten.txt als voorbeeld.) Deze voorbeelden zijn ook handig voor het jaar 2025 - 2026 aangezien dit exact de namen zijn van elk project met (normaal gezien!) de juiste capaciteit en ook de lijst met de namen van de studenten uit dit jaar (met weliswaar fictieve keuzes voor projecten). 
 BELANGRIJK: De namen van studenten (bij paren) en de projecten moeten gescheiden worden door een '.' (zie ook voorbeeld)!
 
 Zoals u kan zien hebben sommige regels twee namen. Dit zijn mensen die (fictief) een partner opgaven voor hun eerste keuze project. (De eerste naam is de student, de tweede de partner.) Hiervoor zijn enkele regels: 
@@ -21,4 +21,4 @@ Resultaten kan u vinden in de [map output](https://github.com/osvdveld/BachelorP
 
 Om nieuwe lijsten van studenten met hun keuzes te maken, wordt aangeraden ChatGPT te raadplegen. Deze kan met de juiste promp gemakkelijk de juiste studenten linken met hun projecten en ervoor zorgen dat er overal punten tussenstaan.
 
-Alvast bedankt voor het bekijken/gebruiken van deze code en veel succes!
+Alvast bedankt voor het bekijken/gebruiken van deze code. Ik hoop dat dit u kan helpen!
