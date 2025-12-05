@@ -1,25 +1,25 @@
 Projecttoewijzing per student (alfabetisch):
 
 Bastiaens Luka: Tracking cosmic muons with gas electron multipliers
-Belpaire Vincent: Tracking cosmic muons with gas electron multipliers
-Brik Joseph: Gravitational-wave interferometer
-Camps Tim: None
-Claessen Jorn: None
+Belpaire Vincent: Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren
+Brik Joseph: Calibration of silicon photomultipliers
+Camps Tim: Efficiënte witte en rode glow-in-the-dark materialen
+Claessen Jorn: Designing analog readout electronics for particle detectors
 Coene Flor: Ultra-snelle X-stralen microtomografie
 De Clercq Rune: Cepheïden
-De Maertelaere Bas: Neutrino-oscillaties met gekoppelde slingers
+De Maertelaere Bas: Maken en karakteriseren van een zonnecel
 De Maeyer Zeno: Magnetic stabilization of a vortex discharge applied for gas reforming
 De Meersman Maxim: Nevelspectroscopie
 De Strycker Kasper: Efficiënte witte en rode glow-in-the-dark materialen
-De Visscher Olivier: Ultra-snelle X-stralen microtomografie
+De Visscher Olivier: Maken en karakteriseren van een lithium-ion batterij
 Debouvere Jelle: De GUST radiotelescoop
-Deré Axel: Nanoporeuze materialen voor luchtzuivering
+Deré Axel: None
 Dewettinck Febe: Comparative study of VOC degradation via thermal, plasma and post-plasma catalytic processes
 Geudens Niels: Maken en karakteriseren van elektrolyse-halfcellen voor waterstofproductie
 Glorie Winston: None
 Goossens Arthur: Van sputteren tot sensor: experimenteel onderzoek naar gasochromisme in WO₃
-Hilderson Tristan: Fosfor-CSI: de optische vingerafdruk van ladingsvangende defecten identificeren
-Huybrechts Finn: None
+Hilderson Tristan: None
+Huybrechts Finn: Gravitational-wave interferometer
 Maeyens Bense: Karakteriseren van Jupiter
 Marien Wannes: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
 Neels Kaat: None
@@ -27,23 +27,23 @@ Noppe Daan: Developing a Beam Monitor for the SHiP Experiment at CERN
 Oreel Jan: Karakteriseren van de zon
 Prins Ingmar: KLIMAATTRAPPERS: Mobiele metingen thermaal comfort
 Rogiers Ilias: High sensitivity seismometer
-Rommens Leon: Designing analog readout electronics for particle detectors
-Ronsijn Nele: Efficiënte witte en rode glow-in-the-dark materialen
+Rommens Leon: None
+Ronsijn Nele: Nanoporeuze materialen voor luchtzuivering
 Room Wouter: Maken en karakteriseren van een zonnecel
-Sette Dayo: Nanoporeuze materialen voor luchtzuivering
+Sette Dayo: X-stralen flux- en dosismetingen
 Uyttendaele Mauro: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
-Van Acker Lowie: Calibration of silicon photomultipliers
-Van Damme Lauren: Maken en karakteriseren van een lithium-ion batterij
+Van Acker Lowie: None
+Van Damme Lauren: Tracking cosmic muons with gas electron multipliers
 Van Hooreweghe Emiel: Van 2 tot 10 meter; de eerste verticale windmetingen
 Van Landeghem Bram: Heartbeat
-Van Tigchelt Marie-Julie: Maken en karakteriseren van een zonnecel
-Vandevelde Oscar: Kalibratie van de Herakles CT-XRF scanner
+Van Tigchelt Marie-Julie: Ultra-snelle X-stralen microtomografie
+Vandevelde Oscar: Nanoporeuze materialen voor luchtzuivering
 Vandomme Elmo: Oppervlakteverbetering van elektrogesponnen scaffolds met behulp van een nieuwe atmosferische plasmastraal voor hartspierweefselmodificatie
 Verhoeven Noah: Maken en karakteriseren van een lithium-ion batterij
-Verschooten Mauro: Flipped acoustics lab
-Verweire Aldrik: X-stralen flux- en dosismetingen
+Verschooten Mauro: AC-Magnetometrie van magnetische nanodeeltjes
+Verweire Aldrik: Neutrino-oscillaties met gekoppelde slingers
 Wallays Thijs: IceCube LED display and Event Topologies
-Wienk Stephen: AC-Magnetometrie van magnetische nanodeeltjes
-Willems Emile: Kalibratie van de Herakles CT-XRF scanner
-Wollaert Camilla: X-stralen flux- en dosismetingen
-Woyte Helena: Neutrino-oscillaties met gekoppelde slingers
+Wienk Stephen: Flipped acoustics lab
+Willems Emile: None
+Wollaert Camilla: Neutrino-oscillaties met gekoppelde slingers
+Woyte Helena: None

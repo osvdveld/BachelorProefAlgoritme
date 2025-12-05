@@ -119,7 +119,6 @@ def detecteer_paren(voorkeuren, partners, projecten):
         paren.append((student, partner))
         gebruikt.add(student)
         gebruikt.add(partner)
-        print(paren)
     return paren
 
 
@@ -128,7 +127,7 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
     Wijs projecten toe in maximaal 5 rondes.
     - In ronde i wordt keuze[i] gebruikt.
     - Studenten wiens keuze[i] niet beschikbaar is, schuiven automatisch door naar een volgende ronde.
-    - Paren worden altijd samen behandeld.
+    - Paren worden enkel in ronde 0 samen behandeld.
     """
     som=0
     toewijzing = {student: None for student in voorkeuren}
@@ -138,32 +137,27 @@ def wijs_projecten_toe(voorkeuren, partners, projecten, paren, max_rondes = 5):
         partner_van[a] = b
         partner_van[b] = a
 
+    # paren kunnen enkel voor hun eerste keuze samen toegewezen worden
+    for a, b in paren:
+        # al toegewezen?
+        if toewijzing[a] is not None:
+            continue
+        keuzes = voorkeuren[a]
+        ronde = 0  # enkel eerste keuze voor paren
+        project = keuzes[ronde]
+        # capaciteit check
+        if projecten.get(project, 0) >= 2:
+            toewijzing[a] = project
+            toewijzing[b] = project
+            projecten[project] -= 2
+            som += 2
+
     # Ronde-per-ronde toewijzen
     for ronde in range(max_rondes):
-        # 1) Eerst alle paren behandelen
-        for a, b in paren:
-            # al toegewezen?
-            if toewijzing[a] is not None:
-                continue
-
-            keuzes = voorkeuren[a]
-            if ronde >= len(keuzes):
-                continue  # geen keuze meer
-
-            project = keuzes[ronde]
-            # capaciteit check
-            if projecten.get(project, 0) >= 2:
-                toewijzing[a] = project
-                toewijzing[b] = project
-                projecten[project] -= 2
-                som += (ronde + 1) * 2
-
-        # 2) Solo studenten
+        # Solo studenten
         for student, keuzes in voorkeuren.items():
-            # al toegewezen of deel van een paar?
+            # al toegewezen ?
             if toewijzing[student] is not None:
-                continue
-            if student in partner_van:
                 continue
             if ronde >= len(keuzes):
                 continue
